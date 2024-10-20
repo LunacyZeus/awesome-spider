@@ -17,7 +17,7 @@ class MainProcess(object):
 
     async def handle(self):
         keyword = 'Salwar'
-        url = f'https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=BD&media_type=all&q={keyword}&search_type=keyword_unordered&source=ad-report'
+        url = f'olx.pl/dom-ogrod/meble/sofy-kanapy/q-sofa/?search%5Bfilter_enum_state%5D%5B0%5D=used&search%5Bfilter_enum_state%5D%5B1%5D=new&search%5Bprivate_business%5D=private'
 
         a_xpath = '//div[@data-cy="l-card" and @data-testid="l-card"]'
         eles = self.page.s_eles(f"x:{a_xpath}")
